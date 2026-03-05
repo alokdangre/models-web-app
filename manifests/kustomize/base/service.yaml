@@ -10,5 +10,5 @@ spec:
       protocol: TCP
       targetPort: 5000
   selector:
-    app.kubernetes.io/component: models-web-app
+    app.kubernetes.io/component: kserve-models-web-app
   type: ClusterIP
